@@ -1,0 +1,15 @@
+CREATE DATABASE BusinessCardDB;
+GO
+USE BusinessCardDB;
+GO
+CREATE TABLE BusinessCards (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    Name NVARCHAR(100) NOT NULL,
+    Gender NVARCHAR(10) NOT NULL,
+    DateOfBirth DATE NOT NULL,
+    Email NVARCHAR(150) NOT NULL,
+    Phone NVARCHAR(20) NOT NULL,
+    Address NVARCHAR(250),
+    PhotoBase64 VARCHAR(MAX)
+);
+GO
