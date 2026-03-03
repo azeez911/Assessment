@@ -21,7 +21,7 @@ A complete, full-stack web application designed to manage, store, and export pro
 ### 1. Database Setup
 1. Open SQL Server Management Studio (SSMS).
 2. Create a new database named `BusinessCardDB`.
-3. Open the provided `DatabaseSetup.sql` file and execute it to generate the `BusinessCards` table.
+3. Open the provided `Backend.sql` file and execute it to generate the `BusinessCards` table.
 4. Update the `DefaultConnection` string in `Backend/appsettings.json` with your local SQL Server credentials.
 
 ### 2. Backend Setup (.NET API)
